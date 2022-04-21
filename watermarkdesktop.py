@@ -39,7 +39,7 @@ def gettime():
     lb.configure(text=timestr)
     root5.after(1000, gettime)
 
-show='FIT-KS-AEC\n{}\n{}\n{}\n'.format(hostname , userName,Compute_addr)
+show='TEST-TEST\n{}\n{}\n{}\n'.format(hostname , userName,Compute_addr)
 root = tkinter.Tk()
 im=Image.open("img.png")
 img=ImageTk.PhotoImage(im)
